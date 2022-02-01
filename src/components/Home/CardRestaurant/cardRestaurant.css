@@ -1,0 +1,32 @@
+.cardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 2rem;
+}
+
+.cardContainer .cardLogoContainter img {
+  width: 100px;
+  padding-right: 1rem;
+}
+
+.cardContainer .cardInfoContainer h1 {
+  font-size: 2rem;
+  font-family: arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.cardContainer .cardInfoContainer h3 {
+  margin: .3rem;
+}
+/*# sourceMappingURL=cardRestaurant.css.map */

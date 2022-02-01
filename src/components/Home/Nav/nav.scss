@@ -1,0 +1,29 @@
+@import "../../../sass/variables/variables.scss";
+
+//Global
+
+html {
+    font-size: 62.5%;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+//Nav versión móvil
+
+nav {
+    background-color: $main;
+    @include flex(row, space-around, center);
+    padding: 2rem 0rem;
+    .navLogo {
+        text-transform: uppercase;
+        color: $secondary;
+    }
+    .navLoginButton{
+        background-color: $secondary;
+        color: $main;
+        cursor: pointer;
+        border-radius: 8px;
+        border: 0rem;
+        padding: 1rem 1.5rem;
+    }
+}

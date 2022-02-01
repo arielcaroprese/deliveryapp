@@ -1,0 +1,29 @@
+// Colors
+
+$main: #149575;
+$secondary: #ffffff;
+$text: #781565;
+
+
+//Fonts
+
+@mixin font ($size) {
+    font-size: $size;
+    font-family: arial, sans-serif;
+}
+
+@mixin font2 ($size) {
+    font-size: $size;
+    font-family: oswald, sans-serif;
+}
+
+//Flex
+
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+//Button

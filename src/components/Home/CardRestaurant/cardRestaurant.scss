@@ -1,0 +1,21 @@
+@import "../../../sass/variables/variables.scss";
+
+.cardContainer {
+    @include flex(row, flex-start, flex-start);
+    padding: 2rem;
+    .cardLogoContainter{
+        img{
+            width: 100px;
+            padding-right: 1rem;
+        }
+    }
+    .cardInfoContainer{
+        h1{
+            @include font(2rem);
+            text-transform: uppercase;
+        }
+        h3 {
+            margin: .3rem;
+        }
+    }
+}

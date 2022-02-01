@@ -1,0 +1,37 @@
+html {
+  font-size: 62.5%;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+nav {
+  background-color: #149575;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0rem;
+}
+
+nav .navLogo {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+nav .navLoginButton {
+  background-color: #ffffff;
+  color: #149575;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 0rem;
+  padding: 1rem 1.5rem;
+}
+/*# sourceMappingURL=Nav.css.map */
