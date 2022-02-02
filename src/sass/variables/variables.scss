@@ -1,18 +1,19 @@
 // Colors
 
-$main: #149575;
+$main: #43612a;
 $secondary: #ffffff;
-$text: #781565;
+$text: #111111;
+$background: #d3d3d3;
 
 
 //Fonts
 
-@mixin font ($size) {
+@mixin fontMain($size) {
     font-size: $size;
-    font-family: arial, sans-serif;
+    font-family: rubik, sans-serif;
 }
 
-@mixin font2 ($size) {
+@mixin fontText($size) {
     font-size: $size;
     font-family: oswald, sans-serif;
 }

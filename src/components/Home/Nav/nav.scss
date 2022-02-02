@@ -11,19 +11,21 @@ html {
 //Nav versión móvil
 
 nav {
-    background-color: $main;
     @include flex(row, space-around, center);
-    padding: 2rem 0rem;
+    background-color: $main;
+    height: 56px;
     .navLogo {
-        text-transform: uppercase;
+        @include fontMain(20px);
         color: $secondary;
+        text-transform: uppercase;
     }
     .navLoginButton{
+        @include fontMain(14px);
         background-color: $secondary;
         color: $main;
         cursor: pointer;
         border-radius: 8px;
         border: 0rem;
-        padding: 1rem 1.5rem;
+        padding: 8px 16px;
     }
 }

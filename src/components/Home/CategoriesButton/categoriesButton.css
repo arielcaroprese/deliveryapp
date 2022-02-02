@@ -1,0 +1,26 @@
+.categoriesContainer form {
+  padding: 16px;
+}
+
+.categoriesContainer form label {
+  font-size: 16px;
+  font-family: rubik, sans-serif;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+.categoriesContainer form select {
+  font-size: 14px;
+  font-family: rubik, sans-serif;
+  color: #111111;
+  margin-left: 8px;
+  text-transform: uppercase;
+}
+
+.categoriesContainer .divider {
+  background-color: #43612a;
+  width: 100vw;
+  height: 1px;
+  margin: 5px 0px;
+}
+/*# sourceMappingURL=categoriesButton.css.map */

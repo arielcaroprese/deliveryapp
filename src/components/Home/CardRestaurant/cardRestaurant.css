@@ -12,21 +12,31 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding: 2rem;
+  padding: 16px;
 }
 
 .cardContainer .cardLogoContainter img {
-  width: 100px;
-  padding-right: 1rem;
+  width: 120px;
+  height: 120px;
+  padding-right: 32px;
+}
+
+.cardContainer .cardInfoContainer {
+  padding-top: 16px;
 }
 
 .cardContainer .cardInfoContainer h1 {
-  font-size: 2rem;
-  font-family: arial, sans-serif;
+  font-size: 20px;
+  font-family: rubik, sans-serif;
+  color: #111111;
   text-transform: uppercase;
+  margin-bottom: 8px;
 }
 
 .cardContainer .cardInfoContainer h3 {
-  margin: .3rem;
+  font-size: 14px;
+  font-family: rubik, sans-serif;
+  color: #111111;
+  margin-bottom: 4px;
 }
 /*# sourceMappingURL=cardRestaurant.css.map */

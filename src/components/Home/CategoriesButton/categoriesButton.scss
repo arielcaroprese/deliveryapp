@@ -1,0 +1,24 @@
+@import "../../../sass/variables/variables.scss";
+
+.categoriesContainer{
+    form{
+        padding: 16px;
+        label{
+            @include fontMain(16px);
+            color: $text;
+            text-transform: uppercase;
+        }
+        select{
+            @include fontMain(14px);
+            color: $text;
+            margin-left: 8px;
+            text-transform: uppercase;
+        }
+    }
+    .divider{
+        background-color: $main;
+        width: 100vw;
+        height: 1px;
+        margin: 5px 0px;
+    }
+}

@@ -5,7 +5,6 @@ html {
 }
 
 nav {
-  background-color: #149575;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,20 +17,25 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem 0rem;
+  background-color: #2c612a;
+  height: 56px;
 }
 
 nav .navLogo {
-  text-transform: uppercase;
+  font-size: 20px;
+  font-family: rubik, sans-serif;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 nav .navLoginButton {
+  font-size: 14px;
+  font-family: rubik, sans-serif;
   background-color: #ffffff;
-  color: #149575;
+  color: #2c612a;
   cursor: pointer;
   border-radius: 8px;
   border: 0rem;
-  padding: 1rem 1.5rem;
+  padding: 8px 16px;
 }
-/*# sourceMappingURL=Nav.css.map */
+/*# sourceMappingURL=nav.css.map */

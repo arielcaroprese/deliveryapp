@@ -2,20 +2,26 @@
 
 .cardContainer {
     @include flex(row, flex-start, flex-start);
-    padding: 2rem;
+    padding: 16px;
     .cardLogoContainter{
         img{
-            width: 100px;
-            padding-right: 1rem;
+            width: 120px;
+            height:120px;
+            padding-right: 32px;
         }
     }
     .cardInfoContainer{
+        padding-top: 16px;
         h1{
-            @include font(2rem);
+            @include fontMain(20px);
+            color: $text;
             text-transform: uppercase;
+            margin-bottom: 8px;
         }
         h3 {
-            margin: .3rem;
+            @include fontMain(14px);
+            color: $text;
+            margin-bottom: 4px;
         }
     }
 }

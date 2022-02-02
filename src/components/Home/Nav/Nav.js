@@ -3,7 +3,7 @@ import "./nav.css";
 const Nav = () => {
     return (
         <nav>
-           <h1 className="navLogo">Logo Img</h1>
+           <h6 className="navLogo">Logo Img</h6>
            <button className="navLoginButton">Iniciar Sesión</button>
         </nav>
     );
