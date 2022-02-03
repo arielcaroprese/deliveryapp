@@ -17,7 +17,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #2c612a;
+  background-color: #43612a;
   height: 56px;
 }
 
@@ -32,7 +32,7 @@ nav .navLoginButton {
   font-size: 14px;
   font-family: rubik, sans-serif;
   background-color: #ffffff;
-  color: #2c612a;
+  color: #43612a;
   cursor: pointer;
   border-radius: 8px;
   border: 0rem;

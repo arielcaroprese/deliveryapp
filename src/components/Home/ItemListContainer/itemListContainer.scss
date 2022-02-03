@@ -1,0 +1,47 @@
+@import "../../../sass/variables/variables.scss";
+
+.itemContainer{
+    .categoryBar{
+        @include flex(row, space-between, center);
+        background-color: $main;
+        height: 42px;
+        margin: 6px 0px;
+        p{
+            @include fontMain(16px);
+            color: $secondary;
+            margin: 16px;
+        }
+    }
+    .itemCardContainer{
+        @include flex(row, space-evenly, center);
+        .itemCard{
+            @include flex(column, center, flex-start);
+            padding: 4px;
+            height: auto;
+            width: 45vw;
+            background-color: $secondary;
+            border: 1px solid $main;
+            img {
+                align-self: center;
+                width:45vw;
+                height: 110px;
+            }
+            .itemTitle {
+                @include fontMain(16px);
+                color: $title;
+                text-transform: uppercase;
+                padding: 4px 0px;
+            }
+            .itemDetail {
+                @include fontMain(14px);
+                color: $text;
+            }
+            .itemPrice {
+                @include fontMain(14px);
+                color: $text;
+                font-weight: bold;
+                padding: 4px 0px;
+            }
+        }
+    }
+}

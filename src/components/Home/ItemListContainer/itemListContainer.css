@@ -1,0 +1,93 @@
+.itemContainer .categoryBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #43612a;
+  height: 42px;
+  margin: 6px 0px;
+}
+
+.itemContainer .categoryBar p {
+  font-size: 16px;
+  font-family: rubik, sans-serif;
+  color: #ffffff;
+  margin: 16px;
+}
+
+.itemContainer .itemCardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.itemContainer .itemCardContainer .itemCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 4px;
+  height: auto;
+  width: 45vw;
+  background-color: #ffffff;
+  border: 1px solid #43612a;
+}
+
+.itemContainer .itemCardContainer .itemCard img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 45vw;
+  height: 110px;
+}
+
+.itemContainer .itemCardContainer .itemCard .itemTitle {
+  font-size: 16px;
+  font-family: rubik, sans-serif;
+  color: #0e0e0e;
+  text-transform: uppercase;
+  padding: 4px 0px;
+}
+
+.itemContainer .itemCardContainer .itemCard .itemDetail {
+  font-size: 14px;
+  font-family: rubik, sans-serif;
+  color: #111111;
+}
+
+.itemContainer .itemCardContainer .itemCard .itemPrice {
+  font-size: 14px;
+  font-family: rubik, sans-serif;
+  color: #111111;
+  font-weight: bold;
+  padding: 4px 0px;
+}
+/*# sourceMappingURL=itemListContainer.css.map */
