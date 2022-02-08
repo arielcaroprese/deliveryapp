@@ -29,3 +29,10 @@ $npm start
 $npm install node-sass
 ```
 2. I renamed the file "src/App.css" to "src/App.scss" and I made sure that "src/App.js" imports the "src/App.scss" file. 
+
+###React-Router-Dom
+
+1. Install react-router-dom [More information here](https://reactrouter.com/docs/en/v6/getting-started/overview)
+```
+npm install react-router-dom@6
+```
