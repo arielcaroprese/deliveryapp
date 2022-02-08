@@ -1,1 +1,27 @@
 @import "../../../sass/variables/variables.scss";
+
+.cardProductContainer{
+    @include flex(column, center, flex-start);
+    margin: auto;
+    width: 300px;
+    img {
+        width: 300px;
+        height: 200px;
+        align-self: center;
+    }
+    .title {
+        @include fontMain(20px);
+        color: $title;
+        text-transform: uppercase;
+        margin: 8px 0px;
+    }
+    .price {
+        @include fontMain(16px);
+        color: $text;
+    }
+    .description {
+        @include fontText(14px);
+        color: $text;
+        margin: 16px 0px;
+    }
+}

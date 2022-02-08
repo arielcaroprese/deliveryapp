@@ -5,7 +5,7 @@ $secondary: #ffffff;
 $text: #111111;
 $title: #0e0e0e;
 $accent: #2d42b9;
-$background: #d3d3d3;
+$background: #ffffff;
 $error:#a31b1b;
 $confirm: #4d9b0d;
 $inactive: #909090;
@@ -19,7 +19,7 @@ $inactive: #909090;
 
 @mixin fontText($size) {
     font-size: $size;
-    font-family: oswald, sans-serif;
+    font-family: arial, sans-serif;
 }
 
 //Flex

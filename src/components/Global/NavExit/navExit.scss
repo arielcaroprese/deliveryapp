@@ -1,0 +1,20 @@
+@import "../../../sass/variables/variables.scss";
+
+.navBarExit {
+    @include flex(row, flex-end, center);
+    background-color: $background;
+    height: 56px;
+    .exitIcon {
+        background-color: $main;
+        height:24px;
+        width:24px;
+        border-radius: 100%;
+        margin: 16px;
+    }
+    p {
+        @include fontMain(16px);
+        color: $secondary;
+        margin: 4px;
+        text-align: center;
+    }
+}

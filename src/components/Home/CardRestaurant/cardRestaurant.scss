@@ -14,7 +14,7 @@
         padding-top: 16px;
         h1{
             @include fontMain(20px);
-            color: $text;
+            color: $title;
             text-transform: uppercase;
             margin-bottom: 8px;
         }
